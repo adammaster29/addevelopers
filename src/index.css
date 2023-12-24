@@ -1,0 +1,301 @@
+/* **************card  Y servicios *************** */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    background: #ffffff;
+    height: 300px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #3b82f6;
+  }
+  
+  .cards .green {
+    background-color: #22c55e;
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  /* *****************servicios************ */
+  .servicios{
+    background: #ffffff;
+  }
+  .service__title{
+    background: none;text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 10px rgb(0, 177, 159),2px 2px 2px rgb(255, 1, 255);
+  }
+  /* ********************img cuadriculas***************************** */
+  .contenedor__cuadricula-img{
+    background: #ffffff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuadriculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  width: 100%;
+  }
+  
+  .igm__title-cuadricula{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    /* background: #ffffff; */
+    /* object-fit: contain; */
+ 
+  }
+  .title__img-cuadricula{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+    /* border: 1px solid #595959; */
+box-shadow: 2px 2px 2px gray;
+  }
+ .contenedor__cuadricula-img:hover .title__img-cuadricula{
+  opacity: 1;
+  }
+  .whatsapp{
+text-decoration: none;
+color: green;
+border: 1px solid rgb(108, 108, 108);
+border-radius: 8px;
+  }
+  /* *********proyectos__realizados************ */
+.proyectos__realizados{
+  background: #ffffff; 
+  height: 400px;
+  top: 1rem;
+}
+.title__proyect{
+  background: #fff;
+}
+
+.padre__grid{
+display: grid;
+grid-template-areas:
+ " one one two"
+ "three four five";
+ gap: 0.5rem;
+ padding: 1rem;
+}
+.grid{
+  background: #0e9238;
+  transition: all 1s ease-in;
+  border-radius: 5px;
+  color: rgb(0, 255, 136);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+}
+.grid:hover {
+  /* transform: translatex(0.5em); */
+  transform: scale(0.9);
+}
+.grid p{
+  opacity: 0;
+}
+.grid:hover p{
+  opacity: 1;
+}
+.one{
+  grid-area: one;
+  background-image: url(/img/pokedex.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.two{
+  grid-area: two;
+  background-image: url(/img/ricky.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.three{
+grid-area: three;
+background-image: url(/img/weather.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.four{
+  grid-area: four;
+  background-image: url(/img/crud.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.five{
+  grid-area: five;
+  background-image: url(/img/adam-shop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* footer */
+.pie__de-pagina{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding: 1rem;
+}
+.pie-flex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.icon__copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.copy-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  background: #adabab;
+}
+.bx{
+font-size: 30px;
+}
+
+/* btn habla con nosotros */
+.btn__escribeme{
+  position: fixed;
+  left: 70%;
+  margin-top: 50%;
+  z-index: 20;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+button {
+  --primary-color: #111;
+  --hovered-color: #09ecec;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+button p::before {
+  position: absolute;
+/*   box-sizing: border-box; */
+  content: "Habla con nosotros";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+button:hover p::before {
+  width: 100%;
+}
+
+button:hover svg {
+  transform: translateX(4px);
+  color: var(--hovered-color)
+}
+
+button svg {
+  color: var(--primary-color);
+  transition: 0.2s;
+  position: relative;
+  width: 15px;
+  transition-delay: 0.2s;
+}
