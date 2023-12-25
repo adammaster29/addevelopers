@@ -118,7 +118,7 @@ border-radius: 8px;
   }
   /* *********proyectos__realizados************ */
 .proyectos__realizados{
-  background: #ffffff; 
+  background: #fff; 
   height: 400px;
   top: 1rem;
 }
@@ -135,7 +135,8 @@ grid-template-areas:
  padding: 1rem;
 }
 .grid{
-  background: #0e9238;
+  /* background: #0e9238; */
+  border: 1px solid #adadad;
   transition: all 1s ease-in;
   border-radius: 5px;
   color: rgb(0, 255, 136);
@@ -217,7 +218,7 @@ background-size: 100% 100%;
   align-items: center;
 }
 footer{
-  background: #adabab;
+  background: #adababfd;
 }
 .bx{
 font-size: 30px;
@@ -238,7 +239,7 @@ button {
 }
 
 button {
-  --primary-color: #111;
+  --primary-color: #ffffff;
   --hovered-color: #09ecec;
   position: relative;
   display: flex;
@@ -253,7 +254,7 @@ button p {
   position: relative;
   font-size: 20px;
   color: var(--primary-color);
-  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   font-weight: 800;
 }
 

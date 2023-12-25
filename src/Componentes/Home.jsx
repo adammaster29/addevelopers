@@ -63,7 +63,7 @@ const Home = () => {
                     <div className="title__img-cuadricula">
                         <h2>Enfocado Hacia El Futuro</h2>
                         <p>Somos Expertos En Solucionar Todos Tus Problemas</p>
-                        <a className='whatsapp' href="#">Whatsapp</a>
+                        <a className='whatsapp' href="https://wa.me/qr/XT5FGS3S5BBLM1">Whatsapp</a>
                     </div>
                 </div>
                 <h1 className='service__title title__proyect'>Algunos Proyectos Realizados</h1>
@@ -110,9 +110,9 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="icon__copyright">
-                    <i class='bx bxl-linkedin'></i>
-                    <i class='bx bx-mail-send'></i>
-                    <i className="bx bxl-twitter"></i>
+                   <a href="https://www.linkedin.com/in/adalberto-agudelo-h-2abbb4109/" target='_blank'><i class='bx bxl-linkedin'></i></a> 
+                    <a href="mailto:adammaster29@gmail.com & subject=hola"><i class='bx bx-mail-send'></i></a>
+                    <a href="https://twitter.com/Adamagudelo24"><i className="bx bxl-twitter"></i></a>
                     <span className='copy-right'>   <i class='bx bx-copyright'></i><p>: Todos los derechos reservados</p></span>
 
                 </div>
